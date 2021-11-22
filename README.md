@@ -36,7 +36,7 @@ For reference, it will look something like this:
 
 ## Task-2 : Create a Simple DSC Website using any Techstack.
 
-This task is meant for second year students. You can also use any other technologies other than HTML and CSS.
+This task is meant for second year students.
 
 ### Instructions:
 
