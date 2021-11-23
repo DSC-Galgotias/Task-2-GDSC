@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+/* CSS For website */
+
+*{
+    /* box-sizing: border-box; */
+    background-color: #17252a;
+    /* background-color: pink; */
+    padding: 0;
+    margin: 0 auto;
+    /* max-width: 95%; */
+    font-family: "Montserrat",sans-serif;
+    
+}
+/* For Nav-bar */
+li,a{
+    
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #edf0f1;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    max-width: 79%;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+
+}
+
+.logo{
+    cursor: pointer;
+    height: 70px;
+}
+.nav-links li,a{
+    text-align: center;
+    padding: 1.5rem;
+    transition: all .3s ease 0s;
+}
+
+.nav-links a:hover,a:focus{
+    color: #39e61b;
+}
+
+@media screen and (min-width:650px) {
+    header{
+        flex-direction: row;
+
+    }
+    .nav-links li,a{
+        display: inline-block;
+        padding: 0px 20px;
+    }
+}
+
+/* End nav-bar */
+
+/* main */
+.container{
+    /* background-color: green; */
+    padding-bottom:60px;
+    padding-top: 30px;
+    margin: auto;
+    max-width: 79%;
+    /* border: 2px solid wheat; */
+    color: #edf0f1;
+    line-height: 1.8rem;
+}
+.para-main{
+    padding-bottom: 10px;
+}
+.main-heading{
+    padding:15px 0px;
+}
+.learn-more{
+    background-color: #edf0f1;
+    color: #23990e;
+    border: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    
+    border-radius: 4px;
+}
+.learn-more:hover{
+    background-color: #23990e;
+    color: #edf0f1;
+}
+.GDSC-img{
+    max-width: 100%;
+    padding: 15px 0px;
+    height: auto;
+}
+
+@media screen and (min-width:650px) {
+    .container{
+         /* border: 2px solid wheat; */
+         padding-left: 10px;
+         line-height: 1.4rem;
+        
+    }
+    
+    .GDSC-img{
+        width: 100%;
+        height: auto;
+        /* margin:10px; */
+    }
+
+}
+/* end of main */
+
+/* Footer */
+.footer{
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    /* background: black; */
+    border-top: 2px solid #edf0f1;
+
+}
+.h3{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-bottom{
+    font-size: 12px;
+    padding: 25px 20px;
+    text-align: center;
+    color: #edf0f1;
+}
+
+.fa-instagram:hover,.fa-facebook-f:hover,.fa-twitter:hover,.fa-linkedin-in:hover{
+    color: #39e61b;
+}
+/* footer end */
+
+/* Contact us page CSS */
+.contact-container{
+    
+    margin: 50px auto;
+    width: 80%;
+}
+
+
+
+.contact-left{
+    color: #edf0f1;
+    
+}
+.input-group{
+    padding-bottom: 30px;
+}
+label{
+    padding-bottom: 10px;
+}
+input{
+    width: 100%;
+    border-bottom: 1px solid #39e61b;
+    box-shadow: none;
+}
+.contact-h1,.contact-h3{
+    padding-bottom: 20px;
+    color: #27a011;
+}
+.submit{
+    background-color: #edf0f1;
+    color: #23990e;
+    border: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    
+    border-radius: 4px;
+}
+.submit:hover{
+    background-color: #23990e;
+    color: #edf0f1;
+}
+
+/* CSS end of contact us page */
+/* About page CSS */
+
+.hero-container{
+    height: 100vh;
+    color: #edf0f1;
+    text-transform: capitalize;
+    background: url('img/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg') center/cover no-repeat;
+}
+.hero-text{
+    padding-bottom: 20px;
+    padding-top: 30px;
+    line-height: 2rem;
+}
+
+
+
+
+
+/* About page CSS end */
