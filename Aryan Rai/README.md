@@ -2,8 +2,8 @@
 
 ---
 ## **Desktop Version** :-
-![Desktop](images/Desktop.jpg)
+![Desktop](images/Desktop.png)
 
 ---
 ## **Mobile Version** :-
-![Mobile](images/Mobile.jpg)
+![Mobile](images/Mobile.png)
